@@ -43,6 +43,7 @@ app.post('/addData', function (req, res) {
  }
  res.send()
  console.log(projectData)
+ console.table(projectData)
 });
 
 

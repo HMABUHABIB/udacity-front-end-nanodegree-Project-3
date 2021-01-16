@@ -111,6 +111,6 @@ function updateUI(data) {
 <img id="openweathermap_icon" src="https://openweathermap.org/img/wn/${data.temperature.weather[0].icon}@2x.png" alt="openweathermap icon">
 </div>`;
   entry.insertBefore(element, entry.firstChild);
-
+  //console.table(data);
 }
 
