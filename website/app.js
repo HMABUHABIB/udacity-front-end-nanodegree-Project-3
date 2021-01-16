@@ -7,7 +7,7 @@
 let d = new Date();
 let newDate = d.getMonth() + 1 + '.' + d.getDate() + '.' + d.getFullYear() + " Time:" + d.getHours() + ":" + d.getMinutes();
 let zipField = document.querySelector('#zip');
-const API_Key = '4964517d2628ee5cfcffcfe8021efd92';
+const API_Key = 'demo';
 let feelingsField = document.querySelector('#feelings');
 let allData = [{ 'SAMER': 15 }];
 const cards = document.querySelector('.entry');
